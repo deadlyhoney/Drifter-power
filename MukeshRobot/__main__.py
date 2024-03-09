@@ -1128,7 +1128,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="sᴜᴍᴍᴏɴ ᴍᴇ",
-                            url="https://t.me/avishaxbot?startgroup=true"
+                            url="https://t.me/Drifters_managment_bot?startgroup=true"
                             )
                        ]
                 ]
