@@ -71,22 +71,25 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 PM_START_TEX = """
-❍ ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \n❍ ʟᴏᴠᴇ ʏᴏᴜ ʙᴀʙʏ... 
+๏ ᴛʜɪs ɪs `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \n❍ ʟᴏᴠᴇ ʏᴏᴜ ʙᴀʙʏ... 
 """
 
 
 PM_START_TEXT = """ 
-*❍ ʜᴇʏ {}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ* !\n━━━━━━━━━━━━━━━━━━━━━━\n\n❍ *ɪ ᴀᴍ {}, ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.*\n\n❍ *ᴜsᴇʀs ➛ {}*\n❍ *ᴄʜᴀᴛs ➛ {}*\n\n❍ *ɪ ʜᴀᴠᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜsɪᴄ ʙᴏᴛ ғᴇᴀᴛᴜʀᴇs.*"""
+*❍ ʜᴇʏ {}, ➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴄᴀʀ ᴛʜᴇᴍᴇ ʙᴀsᴇᴅ ʙᴏᴛ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ғᴏʀ ᴍᴀɴᴀɢᴍᴇɴᴛ ᴏғ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ ᴡɪᴛʜ sᴏᴍᴇ ʜɪᴅᴅᴇɴ ᴘᴏᴡᴇʀs ɪғ ᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴇ ɪᴛ.
+
+──────────────────
+๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ʜɪᴅᴅᴇɴ ᴘᴏᴡᴇʀs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.*"""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text=" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ", 
+            text=" sᴜᴍᴍᴏɴ ᴍᴇ ", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ),
     ],
     [
-        InlineKeyboardButton(text="ʀᴇᴘᴏ", callback_data="gib_source"),
+        InlineKeyboardButton(text="ɢʜᴏsᴛ", url=f"https://t.me/THE_ORCUS"),
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="mukesh_"),
     ],
     [
@@ -98,12 +101,12 @@ buttons = [
 
 roy = [
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/DRIFTERSNETWORK"),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+            text="sᴜᴍᴍᴏɴ ᴍᴇ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -179,7 +182,7 @@ NYKAA = [
 ]
 
 
-DONATE_STRING = f"""❍ ʜᴇʏ ʙᴀʙʏ, ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @roy_editx ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @the_friendz ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+DONATE_STRING = f"""❍ ʜᴇʏ sᴏʟᴅɪᴇʀ, ᴘʀᴏᴜᴅ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @the_orcus ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @drifters_support ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -276,19 +279,12 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             
             x=update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAI33mLYLNLilbRI-sKAAob0P7koTEJNAAIOBAACl42QVKnra4sdzC_uKQQ")
-            x.delete()
+                "CAACAgUAAxkBAAI5JmXrWPmav5Ogn2JupKS3pMyIehwLAAIHDAACdJ64VJYrVbtlQe8NHgQ")
             usr = update.effective_user
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(0.4)
-            lol.edit_text("💛")
-            time.sleep(0.5)
-            lol.edit_text("🤍")
-            time.sleep(0.3)
-            lol.edit_text("❤️")
-            time.sleep(0.4)
+            time.sleep(0.2)
             lol.delete()
             
             update.effective_message.reply_photo(random.choice(NYKAA),PM_START_TEXT.format(escape_markdown(first_name),BOT_NAME,sql.num_users(),sql.num_chats()),
@@ -299,7 +295,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             random.choice(NYKAA),
-            caption="❍ ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ...!\n\n❍ <b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ ʙᴀʙʏ.</b> \n\n❍ ᴜᴘᴛɪᴍᴇ ➛ <code>{}</code>".format(
+            caption="❍ ᴄᴏᴘʏ sᴏʟᴅɪᴇʀ...!\n\n❍ <b>ɪ ɪ ᴀᴍ ᴀᴡᴀᴋᴇ sᴏʟᴅɪᴇʀ.</b> \n\n❍ ᴜᴘᴛɪᴍᴇ ➛ <code>{}</code>".format(
                 uptime
             ),
             reply_markup=InlineKeyboardMarkup(roy),
@@ -432,8 +428,6 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
         query.message.edit_caption(f"*✦ ɪ ᴀᴍ {dispatcher.bot.first_name} ✦*"
             "\n\n*❍ ɪ ʜᴀᴠᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜsɪᴄ ʙᴏᴛ ғᴇᴀᴛᴜʀᴇs.*"
             "\n\n*❍ ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ.*"
-            f"\n\n*❍ ᴜsᴇʀs ➛* {sql.num_users()}"
-            f"\n*❍ ᴄʜᴀᴛs ➛* {sql.num_chats()}"
             "\n\n❍ ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
             "\n❍ ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
             "\n❍ ᴀᴅᴠᴀɴᴄᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴄᴀᴘᴀʙɪʟɪᴛʏ."
@@ -448,7 +442,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(
                             text="ʜᴇʟᴘ ᴍᴇɴᴜ", callback_data="Main_help"
                         ),
-                        InlineKeyboardButton(text="ɴʏᴋᴀᴀ ", url="https://t.me/nykaa_update"),
+                        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ", url="https://t.me/DRIFTERS_SUPPORT"),
                     ],
                     [
                         InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="mukesh_back"),
@@ -457,7 +451,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             ),
             )
     elif query.data == "mukesh_support":
-        query.message.edit_caption("**❍ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ ᴛᴏ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.**"
+        query.message.edit_caption("**❍ sᴏʟᴅɪᴇʀ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ ᴛᴏ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.**"
             f"\n\n❍ ɪғ ᴀɴʏ ʙᴜɢ ɪɴ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -467,7 +461,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx"
+                            text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/DRIFTERSNETWORK"
                         ),
                     ],
                     [
