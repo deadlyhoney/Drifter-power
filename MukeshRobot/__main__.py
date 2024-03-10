@@ -70,8 +70,10 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
 
     return ping_time
-PM_START_TEX = """ 
+PM_START_TEX = """ ❍ ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \n❍ ʟᴏᴠᴇ ʏᴏᴜ ʙᴀʙʏ... 
+"""
 
+PM_START_TEX = """
 ❍ ʜᴇʏ {} 
 ๏ ᴛʜɪs ɪs ({})
 ➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴄᴀʀ
@@ -260,7 +262,7 @@ def start(update: Update, context: CallbackContext):
                 "CAACAgUAAxkBAAI6NmXtZ9fcDUEXPS3slkC8r7iPGhl1AAIKCwACLJS5VAo65AN9nP5LHgQ")
             usr = update.effective_user
             lol = update.effective_message.reply_text(
-                PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
+             PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.6)
             lol.delete()
