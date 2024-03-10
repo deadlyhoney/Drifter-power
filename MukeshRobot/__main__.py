@@ -1,10 +1,10 @@
-import random
 import importlib
 import re
 import time
 import asyncio
 from platform import python_version as y
 from sys import argv
+
 from pyrogram import __version__ as pyrover
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram import __version__ as telever
@@ -23,11 +23,11 @@ from telegram.ext import (
     Filters,
     MessageHandler,
 )
-from telegram.ext.dispatcher import DispatcherHandlerStop
+from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 from telethon import __version__ as tlhver
 
-import MukeshRobot.modules.no_sql.users_db as sql
+import MukeshRobot.modules.sql.users_sql as sql
 from MukeshRobot import (
     BOT_NAME,
     BOT_USERNAME,
