@@ -211,7 +211,7 @@ def send_help(chat_id, text, keyboard=None):
         reply_markup=keyboard,
     )
 
-
+run_async
 def test(update: Update, context: CallbackContext):
     # pprint(eval(str(update)))
     update.effective_message.reply_text(
