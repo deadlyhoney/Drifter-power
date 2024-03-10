@@ -466,7 +466,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_1":
         query.message.edit_text(
-            text=f"*❣️ Ꭺ𝙳𝙼𝙸𝙽'𝚂 Ꮯ𝙾𝙼𝙼𝙰𝙽𝙳𝚂 ❣️*"
+            text=f"*  Ꭺ𝙳𝙼𝙸𝙽'𝚂 Ꮯ𝙾𝙼𝙼𝙰𝙽𝙳𝚂 *"
             f"""
 
 ❀ ʜᴇʀᴇ ᴀʀᴇ ᴀʟʟ ᴍᴜsɪᴄ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs. ❀ 
@@ -585,7 +585,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text= "🍁ʜᴀʀᴇᴍ🍁", callback_data="Music_4"),
                     ],
                     [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Music_11"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Music_11"),
                     ]
                 ]
             ),
@@ -651,9 +651,10 @@ def Music_about_callback(update: Update, context: CallbackContext):
 ☏︎ **Usᴇ `/chatbot on` ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴜsᴇ Iᴄᴏɴɪᴄ Bᴏᴛ's Cʜᴀᴛʙᴏᴛ ɪɴ ʏᴏᴜʀ ʀᴇsᴘᴇᴄᴛɪᴠᴇ ɢʀᴏᴜᴘs !!** ᰔᩚ
 
 ━━━━━━━━━━━━━━━━━━━━
-  𝐈𝚃'𝚂 𝐁𝙰𝚂𝙴𝙳 𝐎𝙽 𝐈𝙼𝙰𝙶𝙸𝙽𝙰𝚁𝚈 𝐂𝙷𝙰𝚁𝙰𝙲𝚃𝙴𝚁`𝐈𝙲𝙲𝙷𝙰 𝐁𝙾𝚂𝙴` 𝐖𝙷𝙾 𝐖𝙸𝙻𝙻 𝐂𝙷𝙰𝚃 𝐖𝙸𝚃𝙷 𝐘𝙾𝚄 𝐀𝙽𝚈𝚃𝙸𝙼𝙴 𝐀𝙲𝙲𝙾𝚁𝙳𝙸𝙽𝙶 𝐓𝙾 𝐘𝙾𝚄𝚁 𝐎𝚁𝙳𝙴𝚁𝚂 !!! 💕
+  ɪᴛ,s ʙᴀsᴇᴅ ᴏɴ ᴄᴀʀs 
+ᴅʀɪғᴛᴇʀs ᴡʜᴏ ᴡɪʟʟ ᴄʜᴀᴛ ᴡɪᴛʜ ʏᴏᴜ ᴀɴʏᴛɪᴍᴇ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴏʀᴅᴇʀs !!!
 
-  𝐉𝚄𝚂𝚃 𝐓𝚈𝙿𝙴 𝙰 𝐌𝙴𝚂𝚂𝙰𝙶𝙴 𝐑𝙴𝙿𝙻𝚈𝙸𝙽𝙶 𝙾𝚁 𝐓𝙰𝙶𝙶𝙸𝙽𝙶 𝐈𝙲𝙾𝙽𝙸𝙲, 𝐀𝙽𝙳 𝐘𝙾𝚄 𝐖𝙸𝙻𝙻 𝐆𝙴𝚃 𝐀 𝐒𝚄𝙿𝙴𝚁𝙵𝙰𝚂𝚃 𝐑𝙴𝚂𝙿𝙾𝙽𝚂𝙴 𝐅𝚁𝙾𝙼 𝐈𝙲𝙲𝙷𝙰. 💓
+ᴊᴜsʀ ᴛʏᴏᴇ ᴀ ᴍᴇssᴀɢᴇ ʀᴇᴘʟʏɪɴɢ ᴋʀ ᴛᴀɢɢɪɴɢ ᴅʀɪғᴛᴇʀs, ᴀɴᴅ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴀ sᴜᴘᴇʀғᴀsᴛ ʀᴇsᴘᴏɴsᴇ ғʀᴏᴍ ᴅʀɪғᴛᴇʀ.
 
 
   [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) 
@@ -676,7 +677,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **𝐍𝐎𝐓𝐄 ➩ 𝐓𝙾 𝐔𝚂𝙴 𝐓𝙷𝙴𝚂𝙴 𝐂𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝐘𝙾𝚄 𝐌𝚄𝚂𝚃 𝐁𝙴 𝐎𝚆𝙽𝙴𝚁 𝐎𝚁 𝐀𝙳𝙼𝙸𝙽 𝐎𝙵 𝐀 𝐏𝙾𝙿𝚄𝙻𝙰𝚁 𝐂𝙷𝙰𝚃 𝐎𝚁 𝐂𝙷𝙰𝙽𝙽𝙴𝙻,**
 
-**𝐈𝙵 𝐘𝙾𝚄 𝐀𝚁𝙴 𝐀𝙿𝙿𝙻𝙸𝙲𝙰𝙱𝙻𝙴, 𝐉𝙾𝙸𝙽 ➩ [𝐑𝙰𝙳𝙸𝚄𝚇 𝐒𝚄𝙿𝙿𝙾𝚁𝚃](https://t.me/The_Radiux_Support) 𝐀𝙽𝙳 𝐓𝙰𝙺𝙴 𝐒𝚄𝙳𝙾 𝐅𝚁𝙾𝙼 𝐓𝙷𝙴𝚁𝙴 !!**
+**𝐈𝙵 𝐘𝙾𝚄 𝐀𝚁𝙴 𝐀𝙿𝙿𝙻𝙸𝙲𝙰𝙱𝙻𝙴, 𝐉𝙾𝙸𝙽 ➩ [𝐑𝙰𝙳𝙸𝚄𝚇 𝐒𝚄𝙿𝙿𝙾𝚁𝚃](https://t.me/drifters_support) 𝐀𝙽𝙳 𝐓𝙰𝙺𝙴 𝐒𝚄𝙳𝙾 𝐅𝚁𝙾𝙼 𝐓𝙷𝙴𝚁𝙴 !!**
 
 
   [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) 
@@ -996,7 +997,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != {OWNER_ID} and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [VIP BOY](https://t.me/Queen_sakhi)"
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [VIP BOY](https://t.me/DRIFTERS_ASSISTANT)"
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
