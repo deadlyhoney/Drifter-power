@@ -77,31 +77,35 @@ PM_START_TEX = """
  
 PM_START_TEXT = """  
  
-ʜᴇʏ {} , [❤️‍🔥]({}) 
+ʜᴇʏ {} , [🪖]({}) 
  
-──────「Gᴀʀᴏᴜ ガロウ」────── 
+──────「 𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎」────── 
  
-⌥ ɪ ᴀᴍ ɢᴀʀᴏᴜ, ᴀ ғᴀsᴛ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀʟʟ ᴛɪᴍᴇ ᴡɪᴛʜ ɴᴏ ʟᴀɢ.
+๏ ᴛʜɪs ɪs ᴅʀɪғᴛᴇʀ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴄᴀʀ ᴛʜᴇᴍᴇ  ʙᴏᴛ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ғᴏʀ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟs 
 
-▸ ɪ ʜᴀᴠᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ɢᴜᴇss ғᴇᴀᴛᴜʀᴇ ᴀʟsᴏ ᴀɴᴅ ᴄʜᴀᴛɢᴘᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀʀᴛɪғɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ ғᴇᴀᴛᴜʀᴇs. !
- 
-๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs ᴏғ Gᴀʀᴏᴜ ガロウ.
+ᴛᴏ ᴄʜᴀᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴘʟᴀʏ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴍᴜsɪᴄ ᴘʟᴀʏ ɢᴀᴍᴇs ᴡɪᴛʜ ʏᴏᴜ 
+
+ɪ ʜᴀᴠᴇ sᴏᴍᴇ ʜɪᴅᴅᴇɴ ᴘᴏᴡᴇʀs ɪғ ᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴇ ɪᴛ.
+
+
+      ──────────────────
+๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ʜɪᴅᴅᴇɴ ᴘᴏᴡᴇʀs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs ᴏғ 𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎.
 """ 
 
 buttons = [ 
     [ 
         InlineKeyboardButton( 
-            text=" ⛩ ᴀᴅᴅ ɢᴀʀᴏᴜ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⛩ ", 
+            text="✞︎ sᴜᴍᴍᴏɴ ᴅʀɪғᴛᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✞︎", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ), 
     ], 
     [ 
-        InlineKeyboardButton(text=" 👾ʜᴇʟᴘ👾 ", callback_data="help_back"), 
+        InlineKeyboardButton(text=" 𓁹ʜᴇʟᴘ𓁹 ", callback_data="help_back"), 
         InlineKeyboardButton(text=" 🎵 Mᴜsɪᴄ 🎵 ", callback_data="no_back"), 
     ], 
     [ 
-        InlineKeyboardButton(text=" 🍁sᴜᴘᴘᴏʀᴛ🍁 ", url=f"https://t.me/garou_support_chat"), 
-        InlineKeyboardButton(text=" 🍁ᴜᴘᴅᴀᴛᴇs🍁 ", url=f"https://t.me/garou_updates"), 
+        InlineKeyboardButton(text=" 🍺sᴜᴘᴘᴏʀᴛ🍺 ", url=f"https://t.me/drifters_support"), 
+        InlineKeyboardButton(text=" 🍺ᴜᴘᴅᴀᴛᴇs🍺 ", url=f"https://t.me/driftersnetwork"), 
     ], 
     [ 
         InlineKeyboardButton(text="", callback_data="gib_source"),  
@@ -117,8 +121,8 @@ buttons = [
 HELP_STRINGS = f"""
 » {BOT_NAME}  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ"""
 
-DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
-  ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
+DONATE_STRING = """ʜᴇʏ sᴏʟᴅɪᴇʀ,
+  ᴘʀᴏᴜᴅ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
 ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
@@ -227,7 +231,7 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             
             x=update.effective_message.reply_sticker(
-"CAACAgQAAxkBAAIX9WXrJ89_2s1tx0B443tT7N2wDqoCAAKqCAACSUkZU0m0AAFDoqLaqTQE") 
+"CAACAgQAAxkBAAI7CGXt61oqVZJq3llh5jgaqdllLwzWAAIpEQAC0n1AUN9p9WsWoafcHgQ") 
             usr = update.effective_user 
             lol = update.effective_message.reply_text( 
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN 
@@ -235,7 +239,7 @@ def start(update: Update, context: CallbackContext):
             time.sleep(0.6) 
             lol.edit_text("🔥")
             time.sleep(0.4)
-            lol.edit_text("「Gᴀʀᴏᴜ ガロウ」") 
+            lol.edit_text("𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎️") 
             time.sleep(0.6)
             lol.delete()
             
@@ -337,7 +341,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]]
                 ),
             )
 
@@ -386,13 +390,13 @@ def Iconic_about_callback(update: Update, context: CallbackContext):
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
             text=f"""
-            𝐇𝙴𝚈 ᴅᴇᴀʀ,
+            ʜᴇʏ sᴏʟᴅɪᴇʀ,
 
-ᴛʜɪs ɪs ɢᴀʀᴏᴜ , ᴀɴᴅ ɪᴛ's ɪᴄᴏɴɪᴄ ɪɴ ᴛʜᴇ ʀᴇᴀʟ sᴇɴsᴇ ᴀs ɪᴛ ɪs ᴀɴᴅ ɪɴᴛᴇʟʟɪɢᴇɴᴛ + ᴏʙᴇᴅɪᴇɴᴛ ʙᴏᴛ !!  
+ᴛʜɪs ɪs ᴅʀɪғᴛᴇʀ , ᴀɴᴅ ɪᴛ's ɪᴄᴏɴɪᴄ ɪɴ ᴛʜᴇ ʀᴇᴀʟ sᴇɴsᴇ ᴀs ɪᴛ ɪs ᴀɴᴅ ɪɴᴛᴇʟʟɪɢᴇɴᴛ-ɢᴇɴᴛʟᴇ + ᴏʙᴇᴅɪᴇɴᴛ ʙᴏᴛ.
  
-Iᴛ ʜᴀs ᴀ ʟᴏᴛ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴡʜɪᴄʜ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ᴏғ ᴀᴍᴀᴢɪɴɢ ʜᴀʀᴅᴡᴏʀᴋ ʙʏ ᴏᴜʀ ᴛᴇᴀᴍ ᴅᴇᴠᴇʟᴏᴘᴇʀ's...  
+ɪᴛ ʜᴀs ᴀ ʟᴏᴛ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴡʜɪᴄʜ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ᴏғ ᴀᴍᴀᴢɪɴɢ ʜᴀʀᴅᴡᴏʀᴋ ʙʏ ᴏᴜʀ ᴛᴇᴀᴍ ᴅᴇᴠᴇʟᴏᴘᴇʀ's...  
  
-Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ɪᴍᴀɢɪɴᴀʀʏ.  
+Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴄᴀʀs & ᴅʀɪғᴛᴇʀs.  
           """  , 
             parse_mode=ParseMode.MARKDOWN, 
             disable_web_page_preview=True, 
@@ -400,15 +404,15 @@ Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇ�
                 [ 
                     [ 
                         InlineKeyboardButton( 
-                            text="𝐎𝚆𝙽𝙴𝚁", url=f"https://t.me/who_am_i_think" 
+                            text="☠︎︎ɢʜᴏsᴛ☠︎︎", url=f"https://t.me/Bang_Brave_Bang_Bravern" 
                         ), 
                         InlineKeyboardButton( 
-                            text="𝐒𝚄𝙿𝙿𝙾𝚁𝚃",  
-                            url="https://t.me/garou_support_chat", 
+                            text="༒︎ sᴜᴘᴘᴏʀᴛ ༒︎",  
+                            url="https://t.me/drifters_support", 
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Radiux_back"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Radiux_back"),
                     ],
                 ]
             ),
@@ -430,11 +434,11 @@ def Music_about_callback(update: Update, context: CallbackContext):
     if query.data == "Music_":
         query.message.edit_text(
             text=f"""
- ♥️ 𝐇𝙴𝚈 𝐁𝙰𝙱𝚈 ♥️ 
+   ʜᴇʏ sᴏʟᴅɪᴇʀ 
  
-❍ *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ「Gᴀʀᴏᴜ ガロウ」* 
+❍ *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎️* 
  
-❍ *ʜᴇʀᴇ ɪs ʏᴏᴜʀ ᴍᴜsɪᴄ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ᴏғ ɢᴀʀᴏᴜ. ɪ ᴀʟsᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴄʜᴀᴛɢᴘᴛ ғᴜɴᴄᴛɪᴏɴs ᴀʟsᴏ*  
+❍ *ʜᴇʀᴇ ɪs ʏᴏᴜʀ ᴍᴜsɪᴄ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ᴏғ ᴅʀɪғᴛᴇʀ. ɪ ᴀʟsᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴄʜᴀᴛɢᴘᴛ ғᴜɴᴄᴛɪᴏɴs ᴀʟsᴏ*  
  
 ❍ *𝟸𝟺x𝟽 ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sᴍᴏᴏᴛʜʏ ᴏɴ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ᴀɴᴅ ᴘʀᴏᴠɪᴅᴇ ʙᴀᴅᴀss ǫᴜᴀʟɪᴛʏ*  
  
@@ -451,11 +455,11 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     text="𝐀𝙳𝙼𝙸𝙽",
                     callback_data="Music_1",
                 ),
-                        InlineKeyboardButton(text="𝐔𝚂𝙴𝚁𝚂", callback_data="Music_2"),
+                        InlineKeyboardButton(text="ᴜsᴇʀs", callback_data="Music_2"),
               ],
                  
                 [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Radiux_back"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Radiux_back"),
                     ],
                 ]
            ),
@@ -479,14 +483,14 @@ def Music_about_callback(update: Update, context: CallbackContext):
  
 */queue* : Uᴘᴄᴏᴍɪɴɢ ᴛʀᴀᴄᴋ ʟɪsᴛ.  
 
-❀ [ɢᴀʀᴏᴜ ᴜᴘᴅᴀᴛᴇs](https://t.me/garou_updates) ❀ 
+❀ [ᴅʀɪғᴛᴇʀ ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) ❀ 
 """, 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Music_"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -510,7 +514,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
  
 𖤓 */settings* ➙ ɢᴇᴛ ᴀ ᴄᴏᴍᴘʟᴇᴛᴇ ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢs ᴡɪᴛʜ ᴀʟʟ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs 
  
-❀ [ɢᴀʀᴏᴜ sᴜᴘᴘᴏʀᴛ](https://t.me/garou_support_chat) ❀ 
+❀ [ᴅʀɪғᴛᴇʀ sᴜᴘᴘᴏʀᴛ](https://t.me/drifters_support) ❀ 
 """, 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -529,14 +533,14 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 ✿ ʜᴇʀᴇ ɪs ᴀʟʟ ᴀɴɪᴍᴇ ʀᴀɴᴅᴏᴍ ᴄᴏᴍᴍᴀɴᴅs.\n\n❍ /gecg ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ ɢᴇᴄɢ ɪᴍɢ.\n❍ /avatar ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴀᴠᴀᴛᴀʀ ɪᴍɢ.\n❍ /foxgirl ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ғᴏxɢɪʀʟ sᴏᴜʀᴄᴇ ɪᴍᴀɢᴇs.\n❍ /waifus ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴡᴀɪғᴜ ɪᴍɢ.\n❍ /neko ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sғᴡ ɴᴇᴋᴏ sᴏᴜʀᴄᴇ ɪᴍᴀɢᴇs.\n❍ /gasm ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴏʀɢᴀsᴍ ɪᴍɢ.\n❍ /cuddle ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴄᴜᴅᴅʟᴇ ɪᴍɢ.\n❍ /shinobu ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ sʜɪɴᴏʙᴜ ɪᴍɢ.\n❍ /megumin ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ ᴍᴇɢᴜᴍɪɴ ɪᴍɢ.\n❍ /bully ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ ʙᴜʟʟʏ ɪᴍɢ.\n❍ /cry ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ ᴄʀʏ ɪᴍɢ.\n❍ /awoo ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ ᴀᴡᴏᴏ ɪᴍɢ.
 
-❀ [ɢᴀʀᴏᴜ ᴜᴘᴅᴀᴛᴇs](https://t.me/garou_updates) ❀ 
+❀ [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) ❀ 
 """, 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Music_5"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Music_5"),
                     ]
                 ]
             ),
@@ -547,14 +551,14 @@ def Music_about_callback(update: Update, context: CallbackContext):
             f"""
 ✿ ʜᴇʀᴇ ɪs ᴀʟʟ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴀᴛᴄʜᴇʀ ( ɢᴀʙʙᴀʀ ʜᴇʀᴇᴍ ) ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴀɴᴅs.\n\n❍ /guess ➛ ᴛᴏ ɢᴜᴇss ᴄʜᴀʀᴀᴄᴛᴇʀ.\n❍ /fav ➛ ᴀᴅᴅ ʏᴏᴜʀ ғᴀᴠʀᴀᴛᴇ.\n❍ /trade ➛ ᴛᴏ ᴛʀᴀᴅᴇ ᴄʜᴀʀᴀᴄᴛᴇʀs.\n❍ /gift ➛ ɢɪᴠᴇ ᴀɴʏ ᴄʜᴀʀᴀᴄᴛᴇʀ ғʀᴏᴍ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴜsᴇʀ.\n❍ /collection ➛ ᴛᴏ sᴇᴇ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ.\n❍ /topgroups ➛ sᴇᴇ ᴛᴏᴘ ɢʀᴏᴜᴘs, ᴘᴘʟ ɢᴜᴇssᴇs ᴍᴏsᴛ ɪɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘs.\n❍ /top ➛ ᴛᴏᴏ sᴇᴇ ᴛᴏᴘ ᴜsᴇʀs.\n❍ /ctop ➛ ʏᴏᴜʀ ᴄʜᴀᴛ ᴛᴏᴘ.\n❍ /changetime ➛ ᴄʜᴀɴɢᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴀᴘᴘᴇᴀʀ ᴛɪᴍᴇ .\n❍ /herem ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄʜᴀᴛᴄʜ.
 
- [ɢᴀʀᴏᴜ sᴜᴘᴘᴏʀᴛ](https://t.me/garou_support-chat)  
+ [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support)  
  """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Music_5"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Music_5"),
                     ]
                 ]
             ),
@@ -570,7 +574,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 ✿ Usᴇ /help ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴄʜᴇᴄᴋ ᴀʟʟ ᴏғ ᴛʜᴇᴍ  
  
 
-[ɢᴀʀᴏᴜ sᴜᴘᴘᴏʀᴛ](https://t.me/garou_support-chat)  
+[ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support)  
 """, 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -590,7 +594,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         query.message.edit_text(
             text=
             f"""
-ᥫᩣ ʕ˖͜͡˖ʔ 𝐇𝙴𝚁𝙴 𝐈𝚂 𝐘𝙾𝚄𝚁 𝐇𝙴𝙻𝙿 & 𝐂𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝐑𝙴𝙻𝙰𝚃𝙴𝙳 𝐓𝙾 𝐑𝙰𝙸𝙳 𝐅𝙴𝙰𝚃𝚄𝚁𝙴 𝐈𝙽 𝐈𝙲𝙾𝙽𝙸𝙲 𝐑𝙾𝙱𝙾𝚃 ʕ˖͜͡˖ʔ ᥫᩣ
+        𝐇𝙴𝚁𝙴 𝐈𝚂 𝐘𝙾𝚄𝚁 𝐇𝙴𝙻𝙿 & 𝐂𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝐑𝙴𝙻𝙰𝚃𝙴𝙳 𝐓𝙾 𝐑𝙰𝙸𝙳 𝐅𝙴𝙰𝚃𝚄𝚁𝙴 𝐈𝙽 𝐈𝙲𝙾𝙽𝙸𝙲 𝐑𝙾𝙱𝙾𝚃 
 
 
 ➩ Spam a message multiple times in the chat.
@@ -598,14 +602,14 @@ def Music_about_callback(update: Update, context: CallbackContext):
 ➩ /spam <count> <message>
 
 
-❣️ [𒆜 𝐈𝙲𝙾𝙽𝙸𝙲 𝐁𝙾𝚃 ๖ۣ•҉ ᭄](https://t.me/iconic_robot) ❣️
+  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support)
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Music_9"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Music_9"),
                     ]
                 ]
             ),
@@ -627,14 +631,14 @@ def Music_about_callback(update: Update, context: CallbackContext):
 ➩ /rraid stop: *Stop the reply raid in the current chat.*
 
 
-❣️ [𒆜 𝐈𝙲𝙾𝙽𝙸𝙲 𝐁𝙾𝚃 ๖ۣ•҉ ᭄](https://t.me/iconic_robot) ❣️
+  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Music_9"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Music_9"),
                     ]
                 ]
             ),
@@ -644,22 +648,22 @@ def Music_about_callback(update: Update, context: CallbackContext):
             text=
             f"""
 
-ᰔᩚ **Usᴇ `/chatbot on` ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴜsᴇ Iᴄᴏɴɪᴄ Bᴏᴛ's Cʜᴀᴛʙᴏᴛ ɪɴ ʏᴏᴜʀ ʀᴇsᴘᴇᴄᴛɪᴠᴇ ɢʀᴏᴜᴘs !!** ᰔᩚ
+☏︎ **Usᴇ `/chatbot on` ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴜsᴇ Iᴄᴏɴɪᴄ Bᴏᴛ's Cʜᴀᴛʙᴏᴛ ɪɴ ʏᴏᴜʀ ʀᴇsᴘᴇᴄᴛɪᴠᴇ ɢʀᴏᴜᴘs !!** ᰔᩚ
 
 ━━━━━━━━━━━━━━━━━━━━
-💕 𝐈𝚃'𝚂 𝐁𝙰𝚂𝙴𝙳 𝐎𝙽 𝐈𝙼𝙰𝙶𝙸𝙽𝙰𝚁𝚈 𝐂𝙷𝙰𝚁𝙰𝙲𝚃𝙴𝚁`𝐈𝙲𝙲𝙷𝙰 𝐁𝙾𝚂𝙴` 𝐖𝙷𝙾 𝐖𝙸𝙻𝙻 𝐂𝙷𝙰𝚃 𝐖𝙸𝚃𝙷 𝐘𝙾𝚄 𝐀𝙽𝚈𝚃𝙸𝙼𝙴 𝐀𝙲𝙲𝙾𝚁𝙳𝙸𝙽𝙶 𝐓𝙾 𝐘𝙾𝚄𝚁 𝐎𝚁𝙳𝙴𝚁𝚂 !!! 💕
+  𝐈𝚃'𝚂 𝐁𝙰𝚂𝙴𝙳 𝐎𝙽 𝐈𝙼𝙰𝙶𝙸𝙽𝙰𝚁𝚈 𝐂𝙷𝙰𝚁𝙰𝙲𝚃𝙴𝚁`𝐈𝙲𝙲𝙷𝙰 𝐁𝙾𝚂𝙴` 𝐖𝙷𝙾 𝐖𝙸𝙻𝙻 𝐂𝙷𝙰𝚃 𝐖𝙸𝚃𝙷 𝐘𝙾𝚄 𝐀𝙽𝚈𝚃𝙸𝙼𝙴 𝐀𝙲𝙲𝙾𝚁𝙳𝙸𝙽𝙶 𝐓𝙾 𝐘𝙾𝚄𝚁 𝐎𝚁𝙳𝙴𝚁𝚂 !!! 💕
 
-💓 𝐉𝚄𝚂𝚃 𝐓𝚈𝙿𝙴 𝙰 𝐌𝙴𝚂𝚂𝙰𝙶𝙴 𝐑𝙴𝙿𝙻𝚈𝙸𝙽𝙶 𝙾𝚁 𝐓𝙰𝙶𝙶𝙸𝙽𝙶 𝐈𝙲𝙾𝙽𝙸𝙲, 𝐀𝙽𝙳 𝐘𝙾𝚄 𝐖𝙸𝙻𝙻 𝐆𝙴𝚃 𝐀 𝐒𝚄𝙿𝙴𝚁𝙵𝙰𝚂𝚃 𝐑𝙴𝚂𝙿𝙾𝙽𝚂𝙴 𝐅𝚁𝙾𝙼 𝐈𝙲𝙲𝙷𝙰. 💓
+  𝐉𝚄𝚂𝚃 𝐓𝚈𝙿𝙴 𝙰 𝐌𝙴𝚂𝚂𝙰𝙶𝙴 𝐑𝙴𝙿𝙻𝚈𝙸𝙽𝙶 𝙾𝚁 𝐓𝙰𝙶𝙶𝙸𝙽𝙶 𝐈𝙲𝙾𝙽𝙸𝙲, 𝐀𝙽𝙳 𝐘𝙾𝚄 𝐖𝙸𝙻𝙻 𝐆𝙴𝚃 𝐀 𝐒𝚄𝙿𝙴𝚁𝙵𝙰𝚂𝚃 𝐑𝙴𝚂𝙿𝙾𝙽𝚂𝙴 𝐅𝚁𝙾𝙼 𝐈𝙲𝙲𝙷𝙰. 💓
 
 
-❣️ [𒆜 𝐈𝙲𝙾𝙽𝙸𝙲 𝐁𝙾𝚃 ๖ۣ•҉ ᭄](https://t.me/iconic_robot) ❣️
+  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Music_11"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Music_11"),
                     ]
                 ]
             ),
@@ -675,18 +679,18 @@ def Music_about_callback(update: Update, context: CallbackContext):
 **𝐈𝙵 𝐘𝙾𝚄 𝐀𝚁𝙴 𝐀𝙿𝙿𝙻𝙸𝙲𝙰𝙱𝙻𝙴, 𝐉𝙾𝙸𝙽 ➩ [𝐑𝙰𝙳𝙸𝚄𝚇 𝐒𝚄𝙿𝙿𝙾𝚁𝚃](https://t.me/The_Radiux_Support) 𝐀𝙽𝙳 𝐓𝙰𝙺𝙴 𝐒𝚄𝙳𝙾 𝐅𝚁𝙾𝙼 𝐓𝙷𝙴𝚁𝙴 !!**
 
 
-❣️ [𒆜 𝐈𝙲𝙾𝙽𝙸𝙲 𝐁𝙾𝚃 ๖ۣ•҉ ᭄](https://t.me/iconic_robot) ❣️
+  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐑𝙰𝙸𝙳", callback_data="Music_7"),
-                        InlineKeyboardButton(text="𝐒𝙿𝙰𝙼", callback_data="Music_6"),
+                        InlineKeyboardButton(text="ʀᴀɪᴅ", callback_data="Music_7"),
+                        InlineKeyboardButton(text="sᴘᴀᴍ", callback_data="Music_6"),
                     ],
                     [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Music_11"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Music_11"),
                     ]
                 ]
             ),
@@ -698,22 +702,22 @@ def Music_about_callback(update: Update, context: CallbackContext):
 ━━━━━━━━━━━━━━━━━━━━
 ➳ 𝐂ᴏᴍᴍᴀɴᴅ: /ask
 
-💘 𝐀ʙᴏᴜᴛ: ᴜꜱᴇ ᴛʜᴇ /ask ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɪɴᴛᴇʀᴀᴄᴛ ᴡɪᴛʜ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ 𝙲𝙷𝙰𝚃 𝙶𝙿𝚃-𝟺 ᴍᴏᴅᴇʟ ꜰᴏʀ ᴀɴ ᴇɴʜᴀɴᴄᴇᴅ ᴄʜᴀᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ. ᴛʜɪꜱ ɪꜱ ᴀ ɴᴇᴡ ꜰᴇᴀᴛᴜʀᴇ, ᴀɴᴅ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ɪᴛ ᴜɴʟɪᴍɪᴛᴇᴅʟʏ...
+  𝐀ʙᴏᴜᴛ: ᴜꜱᴇ ᴛʜᴇ /ask ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɪɴᴛᴇʀᴀᴄᴛ ᴡɪᴛʜ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ 𝙲𝙷𝙰𝚃 𝙶𝙿𝚃-𝟺 ᴍᴏᴅᴇʟ ꜰᴏʀ ᴀɴ ᴇɴʜᴀɴᴄᴇᴅ ᴄʜᴀᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ. ᴛʜɪꜱ ɪꜱ ᴀ ɴᴇᴡ ꜰᴇᴀᴛᴜʀᴇ, ᴀɴᴅ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ɪᴛ ᴜɴʟɪᴍɪᴛᴇᴅʟʏ...
 
-💗 𝐅ᴇᴀᴛᴜʀᴇꜱ: /ask ყσυɾ ɱεssαցҽ -- ɪɴɪᴛɪᴀᴛᴇ ᴀ ᴄᴏɴᴠᴇʀꜱɪᴏɴ ᴡɪᴛʜ 𝙲𝙷𝙰𝚃 𝙶𝙿𝚃-𝟺, ᴀɴᴅ ɪᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴏᴜɢʜᴛꜰᴜʟ ᴀɴᴅ ᴄᴏɴᴛᴇxᴛᴡᴀʀᴇ ʀᴇꜱᴘᴏɴꜱᴇꜱ.
+  𝐅ᴇᴀᴛᴜʀᴇꜱ: /ask ყσυɾ ɱεssαցҽ -- ɪɴɪᴛɪᴀᴛᴇ ᴀ ᴄᴏɴᴠᴇʀꜱɪᴏɴ ᴡɪᴛʜ 𝙲𝙷𝙰𝚃 𝙶𝙿𝚃-𝟺, ᴀɴᴅ ɪᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴏᴜɢʜᴛꜰᴜʟ ᴀɴᴅ ᴄᴏɴᴛᴇxᴛᴡᴀʀᴇ ʀᴇꜱᴘᴏɴꜱᴇꜱ.
 
 ╰┈➤𝐍ᴏᴛᴇ : 𝚃𝙷𝙸𝚂 𝙵𝙴𝙰𝚃𝚄𝚁𝙴 𝙸𝚂 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴 𝙵𝙾𝚁 𝙰𝙻𝙻 𝚄𝚂𝙴𝚁𝚂, 𝙰𝙽𝙳 𝙸𝚃 𝙰𝙳𝙳 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝙳𝙸𝙼𝙴𝙽𝚂𝙸𝙾𝙽 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙲𝙷𝙰𝚃 𝙸𝙽𝚃𝙴𝚁𝙰𝙲𝚃𝙸𝙾𝙽𝚂. 𝙴𝙽𝙹𝙾𝚈 𝚃𝙷𝙴 𝚄𝙿𝙶𝚁𝙰𝙳𝙴𝙳 𝙲𝙰𝙿𝙰𝙱𝙸𝙻𝙸𝚃𝙸𝙴𝚂 ᴏғ  𝐂𝐇𝐀𝐓 𝐆𝐏𝐓-𝟒 𝚂𝙴𝙰𝙼𝙻𝙴𝚂𝚂𝙻𝚈!
 
 ━━━━━━━━━━━━━━━━━━━━
 
-❣️ [𒆜 𝐈𝙲𝙾𝙽𝙸𝙲 𝐁𝙾𝚃 ๖ۣ•҉ ᭄](https://t.me/iconic_robot) ❣️
+  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Music_11"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Music_11"),
                     ]
                 ]
             ),
@@ -724,22 +728,22 @@ def Music_about_callback(update: Update, context: CallbackContext):
             f"""
 
 
-❣️ [𒆜 𝐈𝙲𝙾𝙽𝙸𝙲 𝐁𝙾𝚃 ๖ۣ•҉ ᭄](https://t.me/iconic_robot) ❣️ """,
+  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support)   """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐒𝙿𝙰𝙼-𝐌𝙴𝙽𝚄", callback_data="Music_9"),
-                        InlineKeyboardButton(text="𝐈𝙲𝙲𝙷𝙰-𝐂𝙷𝙰𝚃-𝐁𝙾𝚃", callback_data="Music_8"),
+                        InlineKeyboardButton(text="sᴘᴀᴍ-ᴍᴇɴᴜ", callback_data="Music_9"),
+                        InlineKeyboardButton(text="ᴅʀɪғᴛᴇʀ-ᴄʜᴀᴛ-ʙᴏᴛ", callback_data="Music_8"),
                     ],
                     [
-                        InlineKeyboardButton(text="𝐂𝙷𝙰𝚃 𝐆𝙿𝚃", callback_data="Music_10"),
-                        InlineKeyboardButton(text="𝐀𝙽𝙸𝙼𝙴", callback_data="Music_5"),
+                        InlineKeyboardButton(text="ᴄʜᴀᴛ ɢᴘᴛ", callback_data="Music_10"),
+                        InlineKeyboardButton(text="ᴀɴɪᴍᴇ", callback_data="Music_5"),
                     ],
 
                         [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Radiux_back"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Radiux_back"),
                     ],
                 ]
             ),
@@ -770,7 +774,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="𝐇𝙴𝙻𝙿 ",
+                                text="ʜᴇʟᴘ ",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -786,7 +790,7 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝐒𝚃𝙰𝚁𝚃 𝐈𝙽 𝐏𝚁𝙸𝚅𝙰𝚃𝙴",
+                            text="sᴛᴀʀᴛ ɪɴ ᴘʀɪᴠᴀᴛᴇ",
                             url="https://t.me/{}?start=help".format(
                                 context.bot.username
                             ),
@@ -794,7 +798,7 @@ def get_help(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="𝐎𝙿𝙴𝙽 𝐇𝙴𝚁𝙴",
+                            text="ᴏᴘᴇɴ ʜᴇʀᴇ",
                             callback_data="help_back",
                         )
                     ],
@@ -815,7 +819,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]]
             ),
         )
 
@@ -964,7 +968,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="𝐒𝙴𝚃𝚃𝙸𝙽𝙶𝚂",
+                                text="sᴇᴛᴛɪɴɢs",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -1043,13 +1047,13 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 photo=f"{START_IMG}",
                 caption=f"""
-✿ {BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ 
+✿ {BOT_NAME} ɪs ᴀʟɪᴠᴇ sᴏʟᴅɪᴇʀ
      ━━━━━━━𒈒✿𒈒━━━━━━━
-**ᰔᩚ ᴍᴀᴅᴇ ʙʏ ➵ ʀᴀᴅɪᴜx**
-**ᰔᩚ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➵** `{y()}`
-**ᰔᩚ ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ ➵** `{telever}`
-**ᰔᩚ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➵** `{tlhver}`
-**ᰔᩚ ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ ➵** `{pyrover}`
+**✞︎ ᴍᴀᴅᴇ ʙʏ ➵ ᴏʀᴄᴄᴜs**
+**✞︎ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➵** `{y()}`
+**✞︎ ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ ➵** `{telever}`
+**✞︎ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➵** `{tlhver}`
+**✞︎ ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ ➵** `{pyrover}`
      ━━━━━━━𒈒✿𒈒━━━━━━━
 """,
                 parse_mode=ParseMode.MARKDOWN,
