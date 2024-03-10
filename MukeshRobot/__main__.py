@@ -221,7 +221,7 @@ def test(update: Update, context: CallbackContext):
     print(update.effective_message)
 
 
-run_async
+
 def start(update: Update, context: CallbackContext):
     args = context.args
     uptime = get_readable_time((time.time() - StartTime))
