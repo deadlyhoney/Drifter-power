@@ -1054,7 +1054,7 @@ def main():
 **✞︎ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➛** `{tlhver}`
 **✞︎ ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ ➛** `{pyrover}`
      ━━━━━━━━ 🝮✿🝮 ━━━━━━━━
-""",reply_markup=x,
+""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
