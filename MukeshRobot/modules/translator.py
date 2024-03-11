@@ -92,9 +92,7 @@ async def repo(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "ᴏᴡɴᴇʀ",user_id=OWNER_ID
-                    ),
+                    
                     InlineKeyboardButton(
                         "ʀᴇᴘᴏ",
                         callback_data="gib_source",
