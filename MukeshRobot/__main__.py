@@ -1039,19 +1039,6 @@ def migrate_chats(update: Update, context: CallbackContext):
 
 
 def main():
-    global x
-    x=InlineKeyboardMarkup(
-                [
-                    [
-      InlineKeyboardButton(
-          
-          text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
-          
-        url="https://t.me/Drifters_managment_bot?startgroup=true"
-                            )
-                       ]
-                ]
-    )
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
