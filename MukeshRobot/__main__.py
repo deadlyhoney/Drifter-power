@@ -1039,6 +1039,19 @@ def migrate_chats(update: Update, context: CallbackContext):
 
 
 def main():
+    global x
+    x=InlineKeyboardMarkup(
+                [
+                    [
+      InlineKeyboardButton(
+          
+          text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+          
+        url="https://t.me/Drifters_managment_bot?startgroup=true"
+                            )
+                       ]
+                ]
+    )
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
@@ -1046,15 +1059,21 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 photo=f"{START_IMG}",
                 caption=f"""
-✿ {BOT_NAME} ɪs ᴀʟɪᴠᴇ sᴏʟᴅɪᴇʀ
-     ━━━━━━━𒈒✿𒈒━━━━━━━
-**✞︎ ᴍᴀᴅᴇ ʙʏ ➵ ᴏʀᴄᴄᴜs**
-**✞︎ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➵** `{y()}`
-**✞︎ ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ ➵** `{telever}`
-**✞︎ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➵** `{tlhver}`
-**✞︎ ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ ➵** `{pyrover}`
-     ━━━━━━━𒈒✿𒈒━━━━━━━
-""",
+ ☏︎ {BOT_NAME} ɪs ᴀʟɪᴠᴇ sᴏʟᴅɪᴇʀ
+     ━━━━━━━━ 🝮✿🝮 ━━━━━━━━
+**✞︎ ᴍᴀᴅᴇ ʙʏ ➛ [ᴏʀᴄᴜs](https://t.me/orcus)**
+**✞︎ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➛** `{y()}`
+**✞︎ ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ ➛** `{telever}`
+**✞︎ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➛** `{tlhver}`
+**✞︎ ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ ➛** `{pyrover}`
+     ━━━━━━━━ 🝮✿🝮 ━━━━━━━━
+""",reply_markup=x,
+                parse_mode=ParseMode.MARKDOWN,
+            )
+        except Unauthorized:
+            LOGGER.warning(
+                f"Bot isn't able to send message to @{SUPPORT_CHAT}, go and check!"
+            ),
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
