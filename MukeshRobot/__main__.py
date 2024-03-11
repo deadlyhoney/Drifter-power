@@ -1048,7 +1048,7 @@ def main():
                 caption=f"""
  ☏︎ {BOT_NAME} ɪs ᴀʟɪᴠᴇ sᴏʟᴅɪᴇʀ
      ━━━━━━━━ 🝮✿🝮 ━━━━━━━━
-**✞︎ ᴍᴀᴅᴇ ʙʏ ➛ [ᴏʀᴄᴜs](https://t.me/the_orcus)**
+**✞︎ ᴍᴀᴅᴇ ʙʏ ➛ [ᴀɴᴅʜᴋᴀᴀʀ](https://t.me/Bang_Brave_Bang_Bravern)**
 **✞︎ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➛** `{y()}`
 **✞︎ ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ ➛** `{telever}`
 **✞︎ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➛** `{tlhver}`
