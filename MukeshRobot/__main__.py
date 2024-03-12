@@ -100,15 +100,18 @@ buttons = [
     [ 
         InlineKeyboardButton(text=" 𓁹ʜᴇʟᴘ𓁹 ", callback_data="help_back"), 
         InlineKeyboardButton(text=" 🎵 Mᴜsɪᴄ 🎵 ", callback_data="no_back"), 
-    ], 
+    ],
+    
+    [ 
+        InlineKeyboardButton(text="🌜ᴡᴀɪғᴜ/ʜᴜsʙᴀɴᴅᴏ🌛", url=f"https://t.me/drifters_support"), 
+    ],
+    
     [ 
         InlineKeyboardButton(text=" 🍺sᴜᴘᴘᴏʀᴛ🍺 ", url=f"https://t.me/drifters_support"), 
         InlineKeyboardButton(text=" 🍺ᴜᴘᴅᴀᴛᴇs🍺 ", url=f"https://t.me/driftersnetwork"), 
     ],
     
-    [ 
-        InlineKeyboardButton(text=" ᴡᴀɪғᴜ ", url=f"https://t.me/drifters_support"), 
-    ], 
+     
     [ 
         InlineKeyboardButton(text="", callback_data="gib_source"),  
         InlineKeyboardButton(text="", callback_data="Music_11"), 
