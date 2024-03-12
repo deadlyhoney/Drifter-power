@@ -103,7 +103,7 @@ buttons = [
     ],
     
     [ 
-        InlineKeyboardButton(text="🌜ᴡᴀɪғᴜ/ʜᴜsʙᴀɴᴅᴏ🌛", url=f"https://t.me/drifters_support"), 
+        InlineKeyboardButton(text="🌜ᴡᴀɪғᴜ/ʜᴜsʙᴀɴᴅᴏ🌛", url=f"https://t.me/SOLO_LEVELING_CRUNCHYROLL_DUB"), 
     ],
     
     [ 
