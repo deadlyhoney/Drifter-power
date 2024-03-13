@@ -33,7 +33,7 @@ PHOTO = "https://graph.org/file/bef3c14259de743681b19.mp4"
 
 @register(pattern=("Good morning"))
 async def awake(event):
-    NEKO = f"  Fonts for Android and iPhone  - ✿︎ᴡɪsʜɪɴɢ ʏᴏᴜ ᴀ ᴠᴇʀʏ ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ✿︎ \n\n✦ ᴡᴇʟᴄᴏᴍᴇ ᴛʜɪs ʙᴇᴀᴜᴛɪғᴜʟ ᴍᴏʀɴɪɴɢ ᴡɪᴛʜ ᴀ sᴍɪʟᴇ ᴏɴ ʏᴏᴜʀ ғᴀᴄᴇ. I ʜᴏᴘᴇ ʏᴏᴜ ʟʟ ʜᴀᴠᴇ ᴀ ɢʀᴇᴀᴛ ᴅᴀʏ ᴛᴏᴅᴀʏ.\n\n✦ ᴡɪsʜɪɴɢ ᴛᴏ ➛ {event.sender.first_name}\n\n✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➛ [𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎️](https://t.me/Drifters_managment_bot)"
+    NEKO = f" ✿︎ᴡɪsʜɪɴɢ ʏᴏᴜ ᴀ ᴠᴇʀʏ ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ✿︎ \n\n✦ ᴡᴇʟᴄᴏᴍᴇ ᴛʜɪs ʙᴇᴀᴜᴛɪғᴜʟ ᴍᴏʀɴɪɴɢ ᴡɪᴛʜ ᴀ sᴍɪʟᴇ ᴏɴ ʏᴏᴜʀ ғᴀᴄᴇ. I ʜᴏᴘᴇ ʏᴏᴜ ʟʟ ʜᴀᴠᴇ ᴀ ɢʀᴇᴀᴛ ᴅᴀʏ ᴛᴏᴅᴀʏ.\n\n✦ ᴡɪsʜɪɴɢ ᴛᴏ ➛ {event.sender.first_name}\n\n✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➛ [𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎️](https://t.me/Drifters_managment_bot)"
     BUTTON = [
         [
             Button.url("✞︎ᴀᴅᴅ ᴅʀɪғᴛᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ✞︎", "https://t.me/Drifters_managment_bot?startgroup=true"),
