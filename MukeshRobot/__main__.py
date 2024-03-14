@@ -99,7 +99,7 @@ buttons = [
     ], 
     [ 
         InlineKeyboardButton(text=" 𓁹ʜᴇʟᴘ𓁹 ", callback_data="help_back"), 
-        InlineKeyboardButton(text=" 🎵 Mᴜsɪᴄ 🎵 ", callback_data="no_back"), 
+        InlineKeyboardButton(text=" 🎵 Mᴜsɪᴄ 🎵 ", callback_data="Music_"), 
     ],
     
     [ 
