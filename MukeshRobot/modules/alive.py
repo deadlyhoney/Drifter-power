@@ -33,12 +33,12 @@ MISHI = [
 
 Mukesh = [
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/DRIFTERSNETWORK"),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+            text="✞︎sᴜᴍᴍᴏɴ ᴅʀɪғᴛᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ✞︎",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -60,7 +60,7 @@ async def restart(client, m: Message):
     await accha.delete()
     await asyncio.sleep(0.3)
     umm = await m.reply_sticker(
-        "CAACAgUAAxkDAAJHbmLuy2NEfrfh6lZSohacEGrVjd5wAAIOBAACl42QVKnra4sdzC_uKQQ"
+        "CAACAgQAAxkBAAI7CGXt61oqVZJq3llh5jgaqdllLwzWAAIpEQAC0n1AUN9p9WsWoafcHgQ"
     )
     await umm.delete()
     await asyncio.sleep(0.2)
