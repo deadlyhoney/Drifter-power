@@ -11,24 +11,24 @@ from telethon import __version__ as tver
 from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID,BOT_NAME,START_IMG
 
 MISHI = [
-    "https://graph.org/file/f86b71018196c5cfe7344.jpg",
-    "https://graph.org/file/a3db9af88f25bb1b99325.jpg",
-    "https://graph.org/file/5b344a55f3d5199b63fa5.jpg",
-    "https://graph.org/file/84de4b440300297a8ecb3.jpg",
-    "https://graph.org/file/84e84ff778b045879d24f.jpg",
-    "https://graph.org/file/a4a8f0e5c0e6b18249ffc.jpg",
-    "https://graph.org/file/ed92cada78099c9c3a4f7.jpg",
-    "https://graph.org/file/d6360613d0fa7a9d2f90b.jpg"
-    "https://graph.org/file/37248e7bdff70c662a702.jpg",
-    "https://graph.org/file/0bfe29d15e918917d1305.jpg",
-    "https://graph.org/file/16b1a2828cc507f8048bd.jpg",
-    "https://graph.org/file/e6b01f23f2871e128dad8.jpg",
-    "https://graph.org/file/cacbdddee77784d9ed2b7.jpg",
-    "https://graph.org/file/ddc5d6ec1c33276507b19.jpg",
-    "https://graph.org/file/39d7277189360d2c85b62.jpg",
-    "https://graph.org/file/5846b9214eaf12c3ed100.jpg",
-    "https://graph.org/file/ad4f9beb4d526e6615e18.jpg",
-    "https://graph.org/file/3514efaabe774e4f181f2.jpg",
+    "https://mallucampaign.in/images/img_1709919340.jpg",
+    "https://mallucampaign.in/images/img_1709919341.jpg",
+    "https://mallucampaign.in/images/img_1709919343.jpg",
+    "https://mallucampaign.in/images/img_1709919344.jpg",
+    "https://mallucampaign.in/images/img_1709919630.jpg",
+    "https://mallucampaign.in/images/img_1709919632.jpg",
+    "https://mallucampaign.in/images/img_1709919631.jpg",
+    "https://mallucampaign.in/images/img_1709919633.jpg"
+    "https://mallucampaign.in/images/img_1709919638.jpg",
+    "https://mallucampaign.in/images/img_1709919639.jpg",
+    "https://mallucampaign.in/images/img_1709919807.jpg",
+    "https://mallucampaign.in/images/img_1709919640.jpg",
+    "https://mallucampaign.in/images/img_1709919811.jpg",
+    "https://mallucampaign.in/images/img_1709919813.jpg",
+    "https://mallucampaign.in/images/img_1709919877.jpg",
+    "https://mallucampaign.in/images/img_1709919880.jpg",
+    "https://mallucampaign.in/images/img_1709919881.jpg",
+    "https://mallucampaign.in/images/img_1709919882.jpg",
 ]
 
 Mukesh = [
@@ -49,7 +49,7 @@ Mukesh = [
 @pbot.on_message(filters.command("alive"))
 async def restart(client, m: Message):
     await m.delete()
-    accha = await m.reply("usr.first_name")
+    accha = await m.reply("ʜᴇʏ sᴏʟᴅɪᴇʀ")
     await asyncio.sleep(0.4)
     await accha.edit("🔥")
     await asyncio.sleep(0.3)
@@ -64,7 +64,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.2)
     await m.reply_photo(
         random.choice(MISHI),
-        caption=f"""** ✦ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](f"t.me/{BOT_USERNAME}") ✦**\n\n❍ **ʟɪʙʀᴀʀʏ ➛** `{lver}`\n❍ **ᴛᴇʟᴇᴛʜᴏɴ ➛** `{tver}`\n❍ **ᴘʏʀᴏɢʀᴀᴍ ➛** `{pver}`\n❍ **ᴘʏᴛʜᴏɴ ➛** `{pyver()}`\n\n❍ **ᴍᴀᴅᴇ ʙʏ ➛** [ʀᴏʏ-ᴇᴅɪᴛx](tg://user?id={OWNER_ID})""",
+        caption=f"""** ✦ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](f"t.me/{BOT_USERNAME}") ✦**\n\n❍ **ʟɪʙʀᴀʀʏ ➛** `{lver}`\n❍ **ᴛᴇʟᴇᴛʜᴏɴ ➛** `{tver}`\n❍ **ᴘʏʀᴏɢʀᴀᴍ ➛** `{pver}`\n❍ **ᴘʏᴛʜᴏɴ ➛** `{pyver()}`\n\n❍ **ᴍᴀᴅᴇ ʙʏ ➛** [ᴀɴᴅʜᴋᴀᴀʀ](tg://user?id={OWNER_ID})""",
         reply_markup=InlineKeyboardMarkup(Mukesh),
     )
     
