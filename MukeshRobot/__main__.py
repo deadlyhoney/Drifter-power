@@ -119,7 +119,7 @@ buttons = [
  
  
     [ 
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ", callback_data="Radiux_"), 
+        InlineKeyboardButton(text="☢︎︎ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ 𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎️ ☢︎︎ ", callback_data="Radiux_"), 
     ], 
 ] 
 
