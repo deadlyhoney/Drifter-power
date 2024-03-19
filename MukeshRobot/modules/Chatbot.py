@@ -7,7 +7,7 @@ from config import BOT_USERNAME
 from pyrogram.enums import ChatAction, ParseMode
 from pyrogram import filters
 
-@app.on_message(filters.command(["ai","ask"],  prefixes=["+", ".", "/", "-", "", "$","#","&"]))
+@app.on_message(filters.command(["ai","ask"],  prefixes=["+", ".", "/", "-","$","#","&"]))
 async def chat_gpt(bot, message):
     try:
         start_time = time.time()
