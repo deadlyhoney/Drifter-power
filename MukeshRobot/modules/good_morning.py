@@ -34,5 +34,9 @@ PHOTO = "https://graph.org/file/85cde9bfa57d2b3a30ed5.mp4"
 @register(pattern=("Good morning"))
 async def awake(event):
     NEKO = f" ✿︎ᴡɪsʜɪɴɢ ʏᴏᴜ ᴀ ᴠᴇʀʏ ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ✿︎ \n\n✦ ᴡᴇʟᴄᴏᴍᴇ ᴛʜɪs ʙᴇᴀᴜᴛɪғᴜʟ ᴍᴏʀɴɪɴɢ ᴡɪᴛʜ ᴀ sᴍɪʟᴇ ᴏɴ ʏᴏᴜʀ ғᴀᴄᴇ. I ʜᴏᴘᴇ ʏᴏᴜ ʟʟ ʜᴀᴠᴇ ᴀ ɢʀᴇᴀᴛ ᴅᴀʏ ᴛᴏᴅᴀʏ.\n\n✦ ᴡɪsʜɪɴɢ ᴛᴏ ➛ {event.sender.first_name}\n\n✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➛ [𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎️](https://t.me/Drifters_managment_bot)"
-    
+    BUTTON = [
+        [
+            Button.url("✞︎ sᴜᴍᴍᴏɴ ✞︎", "https://t.me/Drifters_managment_bot?startgroup=true"),
+        ]
+    ]
     await telethn.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
