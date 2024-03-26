@@ -449,7 +449,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
  
 ❍ *ᴀʟsᴏ ɢᴜᴇss ᴡᴀɪғᴜ ᴀɴᴅ ʜᴜsʙᴀɴᴅᴏᴏ ɴᴀᴍᴇ ᴀɴᴅ ᴀᴅᴅ ɪɴ ʏᴏᴜʀ ʜᴀʀᴇᴍ*  
 """, 
-           
+            InputMediaPhoto - https://mallucampaign.in/images/img_1709919877.jpg
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
