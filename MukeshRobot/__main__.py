@@ -411,12 +411,18 @@ def Iconic_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="☠︎︎ɢʜᴏsᴛ☠︎︎",
+                            text="☠︎︎ ɢʜᴏsᴛ ☠︎︎",
                             url="https://t.me/Bang_Brave_Bang_Bravern"
                         ),
                         InlineKeyboardButton(
                             text="༒︎ sᴜᴘᴘᴏʀᴛ ༒︎",
                             url="https://t.me/drifters_support"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="ʙᴀᴄᴋ",
+                            callback_data="Radiux_back"
                         ),
                     ],
                 ]
@@ -431,7 +437,6 @@ def Iconic_about_callback(update, context):
             timeout=60,
             disable_web_page_preview=False,
         )
-
 
 run_async
 def Music_about_callback(update: Update, context: CallbackContext):
