@@ -1,4 +1,4 @@
-import InputMediaPhoto
+from pyrogram.types import InputMediaPhoto
 import importlib
 import re
 import time
