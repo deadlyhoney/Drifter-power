@@ -396,18 +396,17 @@ def Iconic_about_callback(update: Update, context: CallbackContext):
         uptime = get_readable_time((time.time() - StartTime))
         media = InputMediaPhoto("https://mallucampaign.in/images/img_1709919810.jpg")
 
-        query.message.edit_text(
-            text=f"""
+        query.message.edit_media(
+            media=media,
+            caption="""
             ʜᴇʏ sᴏʟᴅɪᴇʀ,
 
             ᴛʜɪs ɪs ᴅʀɪғᴛᴇʀ , ᴀɴᴅ ɪᴛ's ɪᴄᴏɴɪᴄ ɪɴ ᴛʜᴇ ʀᴇᴀʟ sᴇɴsᴇ ᴀs ɪᴛ ɪs ᴀɴᴅ ɪɴᴛᴇʟʟɪɢᴇɴᴛ-ɢᴇɴᴛʟᴇ + ᴏʙᴇᴅɪᴇɴᴛ ʙᴏᴛ.
  
             ɪᴛ ʜᴀs ᴀ ʟᴏᴛ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴡʜɪᴄʜ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ᴏғ ᴀᴍᴀᴢɪɴɢ ʜᴀʀᴅᴡᴏʀᴋ ʙʏ ᴏᴜʀ ᴛᴇᴀᴍ ᴅᴇᴠᴇʟᴏᴘᴇʀ's...  
  
-            Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴄᴀʀs & ᴅʀɪғᴛᴇʀs.  
+            Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴄᴀʀs & ᴅʀɪғᴛᴇʀs.
             """, 
-            parse_mode=ParseMode.MARKDOWN, 
-            disable_web_page_preview=True, 
             reply_markup=InlineKeyboardMarkup( 
                 [ 
                     [ 
