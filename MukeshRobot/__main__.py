@@ -393,38 +393,32 @@ run_async
 def Iconic_about_callback(update, context):
     query = update.callback_query
     if query.data == "Radiux_":
-        uptime = get_readable_time((time.time() - StartTime))
-        caption = """
-        ʜᴇʏ sᴏʟᴅɪᴇʀ,
+        query.message.edit_text(
+           text=f"""
+        ʜᴇʏ sᴏʟᴅɪᴇʀ
 
         ᴛʜɪs ɪs ᴅʀɪғᴛᴇʀ , ᴀɴᴅ ɪᴛ's ɪᴄᴏɴɪᴄ ɪɴ ᴛʜᴇ ʀᴇᴀʟ sᴇɴsᴇ ᴀs ɪᴛ ɪs ᴀɴᴅ ɪɴᴛᴇʟʟɪɢᴇɴᴛ-ɢᴇɴᴛʟᴇ + ᴏʙᴇᴅɪᴇɴᴛ ʙᴏᴛ.
         
         ɪᴛ ʜᴀs ᴀ ʟᴏᴛ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴡʜɪᴄʜ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ᴏғ ᴀᴍᴀᴢɪɴɢ ʜᴀʀᴅᴡᴏʀᴋ ʙʏ ᴏᴜʀ ᴛᴇᴀᴍ ᴅᴇᴠᴇʟᴏᴘᴇʀ's...  
         
         Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴄᴀʀs & ᴅʀɪғᴛᴇʀs.
-        """
-        query.message.edit_text(
-            caption=caption,
+        """,
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="☠︎︎ɢʜᴏsᴛ☠︎︎",
-                            url="https://t.me/Bang_Brave_Bang_Bravern"
-                        ),
-                        InlineKeyboardButton(
-                            text="༒︎ sᴜᴘᴘᴏʀᴛ ༒︎",
-                            url="https://t.me/drifters_support"
-                        ),
+                            text="☠︎︎ɢʜᴏsᴛ☠︎︎", url="https://t.me/Bang_Brave_Bang_Bravern"),
+                        InlineKeyboardButton( text="༒︎ sᴜᴘᴘᴏʀᴛ ༒︎", url="https://t.me/drifters_support"),
                     ],
                     [
                         InlineKeyboardButton(
                             text="ʙᴀᴄᴋ",
-                            callback_data="Radiux_back"
-                        ),
+                            callback_data="Radiux_back"),
                     ],
-                ]
-            )
+                ],
+           ),
         )
     elif query.data == "Radiux_back":
         first_name = update.effective_user.first_name 
