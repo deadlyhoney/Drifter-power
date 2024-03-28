@@ -404,7 +404,6 @@ def Iconic_about_callback(update, context):
         Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴄᴀʀs & ᴅʀɪғᴛᴇʀs.
         """
         query.message.edit_text(
-            chat_id=update.effective_chat.id,
             caption=caption,
             reply_markup=InlineKeyboardMarkup(
                 [
