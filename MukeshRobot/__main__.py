@@ -391,6 +391,7 @@ def help_button(update, context):
     
 run_async
 def Iconic_about_callback(update: Update, context: CallbackContext):
+    qdef Iconic_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Radiux_":
         uptime = get_readable_time((time.time() - StartTime))
