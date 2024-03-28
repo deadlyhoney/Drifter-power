@@ -390,37 +390,41 @@ def help_button(update, context):
             
     
 run_async
-def Iconic_about_callback(update: Update, context: CallbackContext):
-    qdef Iconic_about_callback(update: Update, context: CallbackContext):
+def Iconic_about_callback(update, context):
     query = update.callback_query
     if query.data == "Radiux_":
         uptime = get_readable_time((time.time() - StartTime))
-        media = InputMediaPhoto("https://mallucampaign.in/images/img_1709919810.jpg", caption="""
-            ʜᴇʏ sᴏʟᴅɪᴇʀ,
+        caption = """
+        ʜᴇʏ sᴏʟᴅɪᴇʀ,
 
-            ᴛʜɪs ɪs ᴅʀɪғᴛᴇʀ , ᴀɴᴅ ɪᴛ's ɪᴄᴏɴɪᴄ ɪɴ ᴛʜᴇ ʀᴇᴀʟ sᴇɴsᴇ ᴀs ɪᴛ ɪs ᴀɴᴅ ɪɴᴛᴇʟʟɪɢᴇɴᴛ-ɢᴇɴᴛʟᴇ + ᴏʙᴇᴅɪᴇɴᴛ ʙᴏᴛ.
- 
-            ɪᴛ ʜᴀs ᴀ ʟᴏᴛ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴡʜɪᴄʜ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ᴏғ ᴀᴍᴀᴢɪɴɢ ʜᴀʀᴅᴡᴏʀᴋ ʙʏ ᴏᴜʀ ᴛᴇᴀᴍ ᴅᴇᴠᴇʟᴏᴘᴇʀ's...  
- 
-            Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴄᴀʀs & ᴅʀɪғᴛᴇʀs.
-            """
-        )
-
-        query.message.edit_media(
-            media=media, 
-            reply_markup=InlineKeyboardMarkup( 
-                [ 
-                    [ 
-                        InlineKeyboardButton( 
-                            text="☠︎︎ɢʜᴏsᴛ☠︎︎", url="https://t.me/Bang_Brave_Bang_Bravern" 
-                        ), 
-                        InlineKeyboardButton( 
-                            text="༒︎ sᴜᴘᴘᴏʀᴛ ༒︎",  
-                            url="https://t.me/drifters_support", 
+        ᴛʜɪs ɪs ᴅʀɪғᴛᴇʀ , ᴀɴᴅ ɪᴛ's ɪᴄᴏɴɪᴄ ɪɴ ᴛʜᴇ ʀᴇᴀʟ sᴇɴsᴇ ᴀs ɪᴛ ɪs ᴀɴᴅ ɪɴᴛᴇʟʟɪɢᴇɴᴛ-ɢᴇɴᴛʟᴇ + ᴏʙᴇᴅɪᴇɴᴛ ʙᴏᴛ.
+        
+        ɪᴛ ʜᴀs ᴀ ʟᴏᴛ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴡʜɪᴄʜ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ᴏғ ᴀᴍᴀᴢɪɴɢ ʜᴀʀᴅᴡᴏʀᴋ ʙʏ ᴏᴜʀ ᴛᴇᴀᴍ ᴅᴇᴠᴇʟᴏᴘᴇʀ's...  
+        
+        Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴄᴀʀs & ᴅʀɪғᴛᴇʀs.
+        """
+        query.message.delete()
+        context.bot.send_photo(
+            chat_id=update.effective_chat.id,
+            photo="https://mallucampaign.in/images/img_1709919810.jpg",  
+            caption=caption,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(
+                            text="☠︎︎ɢʜᴏsᴛ☠︎︎",
+                            url="https://t.me/Bang_Brave_Bang_Bravern"
+                        ),
+                        InlineKeyboardButton(
+                            text="༒︎ sᴜᴘᴘᴏʀᴛ ༒︎",
+                            url="https://t.me/drifters_support"
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Radiux_back"),
+                        InlineKeyboardButton(
+                            text="ʙᴀᴄᴋ",
+                            callback_data="Radiux_back"
+                        ),
                     ],
                 ]
             )
@@ -428,9 +432,10 @@ def Iconic_about_callback(update: Update, context: CallbackContext):
     elif query.data == "Radiux_back":
         first_name = update.effective_user.first_name 
         query.message.edit_text(
-            text=PM_START_TEXT.format(escape_markdown(first_name), (START_IMG), BOT_NAME),
+            PM_START_TEXT.format(escape_markdown(first_name), (START_IMG), BOT_NAME),
             reply_markup=InlineKeyboardMarkup(buttons),
             parse_mode=ParseMode.MARKDOWN,
+            timeout=60,
             disable_web_page_preview=False,
         )
 run_async
