@@ -403,10 +403,8 @@ def Iconic_about_callback(update, context):
         
         Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴄᴀʀs & ᴅʀɪғᴛᴇʀs.
         """
-        query.message.edit()
-        context.bot.send_photo(
+        query.message.edit_text(
             chat_id=update.effective_chat.id,
-            photo="https://mallucampaign.in/images/img_1709919810.jpg",  
             caption=caption,
             reply_markup=InlineKeyboardMarkup(
                 [
