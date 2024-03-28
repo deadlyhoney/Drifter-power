@@ -393,6 +393,8 @@ run_async
 def Iconic_about_callback(update, context):
     query = update.callback_query
     if query.data == "Radiux_":
+         context.bot.send_photo(
+         photo="https://mallucampaign.in/images/img_1709919810.jpg",)
         query.message.edit_text(
            text=f"""
         ʜᴇʏ sᴏʟᴅɪᴇʀ
