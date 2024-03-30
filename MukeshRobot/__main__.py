@@ -410,7 +410,7 @@ Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇ�
                 [ 
                     [ 
                         InlineKeyboardButton( 
-                            text="☠︎︎ɢʜᴏsᴛ☠︎︎", url=f"https://mallucampaign.in/images/img_1711713075.jpg" 
+                            text="☠︎︎ɢʜᴏsᴛ☠︎︎", url=f"https://t.me/Bang_Brave_Bang_Bravern" 
                         ), 
                         InlineKeyboardButton( 
                             text="༒︎ sᴜᴘᴘᴏʀᴛ ༒︎",  
@@ -431,7 +431,7 @@ Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇ�
             parse_mode=ParseMode.MARKDOWN,
             timeout=60,
             disable_web_page_preview=False,
-        )
+        ) 
 run_async
 def Music_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
