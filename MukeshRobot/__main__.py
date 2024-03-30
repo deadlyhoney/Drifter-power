@@ -390,35 +390,38 @@ def help_button(update, context):
             
     
 run_async
-def Iconic_about_callback(update, context):
+def Iconic_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Radiux_":
+        uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
-           text=f"""
-        ʜᴇʏ sᴏʟᴅɪᴇʀ
+            text=f"""
+            ʜᴇʏ sᴏʟᴅɪᴇʀ,
 
-        ᴛʜɪs ɪs ᴅʀɪғᴛᴇʀ , ᴀɴᴅ ɪᴛ's ɪᴄᴏɴɪᴄ ɪɴ ᴛʜᴇ ʀᴇᴀʟ sᴇɴsᴇ ᴀs ɪᴛ ɪs ᴀɴᴅ ɪɴᴛᴇʟʟɪɢᴇɴᴛ-ɢᴇɴᴛʟᴇ + ᴏʙᴇᴅɪᴇɴᴛ ʙᴏᴛ.
-        
-        ɪᴛ ʜᴀs ᴀ ʟᴏᴛ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴡʜɪᴄʜ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ᴏғ ᴀᴍᴀᴢɪɴɢ ʜᴀʀᴅᴡᴏʀᴋ ʙʏ ᴏᴜʀ ᴛᴇᴀᴍ ᴅᴇᴠᴇʟᴏᴘᴇʀ's...  
-        
-        Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴄᴀʀs & ᴅʀɪғᴛᴇʀs.
-        """,
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            text="☠︎︎ɢʜᴏsᴛ☠︎︎", url="https://t.me/Bang_Brave_Bang_Bravern"),
-                        InlineKeyboardButton( text="༒︎ sᴜᴘᴘᴏʀᴛ ༒︎", url="https://t.me/drifters_support"),
+ᴛʜɪs ɪs ᴅʀɪғᴛᴇʀ , ᴀɴᴅ ɪᴛ's ɪᴄᴏɴɪᴄ ɪɴ ᴛʜᴇ ʀᴇᴀʟ sᴇɴsᴇ ᴀs ɪᴛ ɪs ᴀɴᴅ ɪɴᴛᴇʟʟɪɢᴇɴᴛ-ɢᴇɴᴛʟᴇ + ᴏʙᴇᴅɪᴇɴᴛ ʙᴏᴛ.
+ 
+ɪᴛ ʜᴀs ᴀ ʟᴏᴛ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴡʜɪᴄʜ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ᴏғ ᴀᴍᴀᴢɪɴɢ ʜᴀʀᴅᴡᴏʀᴋ ʙʏ ᴏᴜʀ ᴛᴇᴀᴍ ᴅᴇᴠᴇʟᴏᴘᴇʀ's...  
+ 
+Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴄᴀʀs & ᴅʀɪғᴛᴇʀs.  
+          """  , 
+            parse_mode=ParseMode.MARKDOWN, 
+            disable_web_page_preview=True, 
+            reply_markup=InlineKeyboardMarkup( 
+                [ 
+                    [ 
+                        InlineKeyboardButton( 
+                            text="☠︎︎ɢʜᴏsᴛ☠︎︎", url=f"https://mallucampaign.in/images/img_1711713075.jpg" 
+                        ), 
+                        InlineKeyboardButton( 
+                            text="༒︎ sᴜᴘᴘᴏʀᴛ ༒︎",  
+                            url="https://t.me/drifters_support", 
+                        ),
                     ],
                     [
-                        InlineKeyboardButton(
-                            text="ʙᴀᴄᴋ",
-                            callback_data="Radiux_back"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Radiux_back"),
                     ],
-                ],
-           ),
+                ]
+            ),
         )
     elif query.data == "Radiux_back":
         first_name = update.effective_user.first_name 
