@@ -25,7 +25,7 @@ import MukeshRobot.modules.sql.chatbot_sql as sql
 from MukeshRobot import BOT_ID, BOT_NAME, BOT_USERNAME, dispatcher
 from MukeshRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
 from MukeshRobot.modules.log_channel import gloggable
-from MukeshAPI import api
+from RadiuxAPI import api
 
 @user_admin_no_reply
 @gloggable
