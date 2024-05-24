@@ -78,38 +78,38 @@ PM_START_TEX = """
  
 PM_START_TEXT = """  
  
-ʜᴇʏ {} , [🪖]({}) 
+ʜᴇʏ {} , [🙂]({}) 
  
-──────「𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎️」────── 
+──────「 ˹Kᴀʀᴜᴍɪ˼ 」────── 
  
-⌥ ɪ ᴀᴍ ᴅʀɪғᴛᴇʀ, ᴀ ᴄᴀʀ ᴛʜᴇᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴀ ғᴀsᴛ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀʟʟ ᴛɪᴍᴇ ᴡɪᴛʜ ɴᴏ ʟᴀɢ.
+⌥ ɪ ᴀᴍ ᴋᴀʀᴜᴍɪ, ᴀ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴀ ғᴀsᴛ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀʟʟ ᴛɪᴍᴇ ᴡɪᴛʜ ɴᴏ ʟᴀɢ.
 
 ▸ ɪ ʜᴀᴠᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ɢᴜᴇss ғᴇᴀᴛᴜʀᴇ ᴀʟsᴏ ᴀɴᴅ ᴄʜᴀᴛɢᴘᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀʀᴛɪғɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ. 
 
 ➻ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴛʜᴀᴛ ғᴇᴀᴛᴜʀᴇs sᴜᴍᴍᴏɴ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ . !
  
-๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs ᴏғ 𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎️.
+๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs ᴏғ ᴋᴀʀᴜᴍɪ.
 """ 
 
 buttons = [ 
     [ 
         InlineKeyboardButton( 
-            text="✞︎ sᴜᴍᴍᴏɴ ᴅʀɪғᴛᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✞︎", 
+            text="✞︎ sᴜᴍᴍᴏɴ ᴋᴀʀᴜᴍɪ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✞︎", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ), 
     ], 
     [ 
-        InlineKeyboardButton(text=" 🪬 ʜᴇʟᴘ 🪬 ", callback_data="help_back"), 
-        InlineKeyboardButton(text=" 🎶 Mᴜsɪᴄ 🎶  ", callback_data="Music_"), 
+        InlineKeyboardButton(text="  ʜᴇʟᴘ  ", callback_data="help_back"), 
+        InlineKeyboardButton(text="  Mᴜsɪᴄ   ", callback_data="Music_"), 
     ],
     
     [ 
-        InlineKeyboardButton(text="🌜ᴡᴀɪғᴜ/ʜᴜsʙᴀɴᴅᴏ🌛", url=f"https://t.me/SOLO_LEVELING_CRUNCHYROLL_DUB"), 
+        InlineKeyboardButton(text="🌀ᴡᴀɪғᴜ/ʜᴜsʙᴀɴᴅᴏ🌀", url=f"https://t.me/SOLO_LEVELING_CRUNCHYROLL_DUB"), 
     ],
     
     [ 
-        InlineKeyboardButton(text=" 🍺sᴜᴘᴘᴏʀᴛ🍺 ", url=f"https://t.me/drifters_support"), 
-        InlineKeyboardButton(text=" 🍺ᴜᴘᴅᴀᴛᴇs🍺 ", url=f"https://t.me/driftersnetwork"), 
+        InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/Karumi_support"), 
+        InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/honey_networks"), 
     ],
     
      
@@ -120,7 +120,7 @@ buttons = [
  
  
     [ 
-        InlineKeyboardButton(text="☢︎︎ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ 𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎️ ☢︎︎ ", callback_data="Radiux_"), 
+        InlineKeyboardButton(text="☢︎︎ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴋᴀʀᴜᴍɪ ☢︎︎ ", callback_data="Radiux_"), 
     ], 
 ] 
 
@@ -130,7 +130,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = """ʜᴇʏ sᴏʟᴅɪᴇʀ,
   ᴘʀᴏᴜᴅ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](f"https://t.me/Bang_Brave_Bang_Bravern") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](f"https://t.me/OgHoneyy") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -245,7 +245,7 @@ def start(update: Update, context: CallbackContext):
             time.sleep(0.2) 
             lol.edit_text("🔥")
             time.sleep(0.2)
-            lol.edit_text("𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎️") 
+            lol.edit_text("ᴋᴀʀᴜᴍɪ") 
             time.sleep(0.3)
             lol.delete()
             
@@ -398,11 +398,11 @@ def Iconic_about_callback(update: Update, context: CallbackContext):
             text=f"""
             ʜᴇʏ sᴏʟᴅɪᴇʀ,
 
-ᴛʜɪs ɪs ᴅʀɪғᴛᴇʀ , ᴀɴᴅ ɪᴛ's ɪᴄᴏɴɪᴄ ɪɴ ᴛʜᴇ ʀᴇᴀʟ sᴇɴsᴇ ᴀs ɪᴛ ɪs ᴀɴᴅ ɪɴᴛᴇʟʟɪɢᴇɴᴛ-ɢᴇɴᴛʟᴇ + ᴏʙᴇᴅɪᴇɴᴛ ʙᴏᴛ.
+ᴛʜɪs ɪs ᴋᴀʀᴜᴍɪ , ᴀɴᴅ ɪᴛ's ɪᴄᴏɴɪᴄ ɪɴ ᴛʜᴇ ʀᴇᴀʟ sᴇɴsᴇ ᴀs ɪᴛ ɪs ᴀɴᴅ ɪɴᴛᴇʟʟɪɢᴇɴᴛ-ɢᴇɴᴛʟᴇ + ᴏʙᴇᴅɪᴇɴᴛ ʙᴏᴛ.
  
 ɪᴛ ʜᴀs ᴀ ʟᴏᴛ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴡʜɪᴄʜ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ᴏғ ᴀᴍᴀᴢɪɴɢ ʜᴀʀᴅᴡᴏʀᴋ ʙʏ ᴏᴜʀ ᴛᴇᴀᴍ ᴅᴇᴠᴇʟᴏᴘᴇʀ's...  
  
-Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴄᴀʀs & ᴅʀɪғᴛᴇʀs.  
+Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴀɴɪᴍᴇ.  
           """  , 
             parse_mode=ParseMode.MARKDOWN, 
             disable_web_page_preview=True, 
@@ -410,11 +410,11 @@ Oᴜᴛ ᴏғ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs, ᴛʜɪs ʙᴏᴛ ɪs ʙᴀsᴇ�
                 [ 
                     [ 
                         InlineKeyboardButton( 
-                            text="☠︎︎ɢʜᴏsᴛ☠︎︎", url=f"https://t.me/Bang_Brave_Bang_Bravern" 
+                            text="ʜᴏɴᴇʏ", url=f"https://t.me/OgHoneyy" 
                         ), 
                         InlineKeyboardButton( 
-                            text="༒︎ sᴜᴘᴘᴏʀᴛ ༒︎",  
-                            url="https://t.me/drifters_support", 
+                            text="sᴜᴘᴘᴏʀᴛ",  
+                            url="https://t.me/Karumi_support", 
                         ),
                     ],
                     [
@@ -438,9 +438,9 @@ def Music_about_callback(update: Update, context: CallbackContext):
     if query.data == "Music_":
         query.message.edit_text(
             text=f"""
-   ʜᴇʏ sᴏʟᴅɪᴇʀ 
+   ʜᴇʏ ʙᴜᴅᴅʏ
  
-❍ *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𝐃𝐫𝐢𝐟𝐭𝐞𝐫࿐●🏎️* 
+❍ *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴋᴀʀᴜᴍɪ* 
  
 ❍ *ʜᴇʀᴇ ɪs ʏᴏᴜʀ ᴍᴜsɪᴄ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ᴏғ ᴅʀɪғᴛᴇʀ. ɪ ᴀʟsᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴄʜᴀᴛɢᴘᴛ ғᴜɴᴄᴛɪᴏɴs ᴀʟsᴏ*  
  
@@ -486,7 +486,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
  
 */queue* : Uᴘᴄᴏᴍɪɴɢ ᴛʀᴀᴄᴋ ʟɪsᴛ.  
 
-❀ [ᴅʀɪғᴛᴇʀ ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) ❀ 
+❀ [ᴋᴀʀᴜᴍɪ ᴜᴘᴅᴀᴛᴇs](https://t.me/honey_networks) ❀ 
 """, 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -517,14 +517,14 @@ def Music_about_callback(update: Update, context: CallbackContext):
  
 𖤓 */settings* ➙ ɢᴇᴛ ᴀ ᴄᴏᴍᴘʟᴇᴛᴇ ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢs ᴡɪᴛʜ ᴀʟʟ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs 
  
-❀ [ᴅʀɪғᴛᴇʀ sᴜᴘᴘᴏʀᴛ](https://t.me/drifters_support) ❀ 
+❀ [ᴋᴀʀᴜᴍɪ sᴜᴘᴘᴏʀᴛ](https://t.me/Karumi_support) ❀ 
 """, 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐁𝙰𝙲𝙺", callback_data="Music_"),
+                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -536,7 +536,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 ✿ ʜᴇʀᴇ ɪs ᴀʟʟ ᴀɴɪᴍᴇ ʀᴀɴᴅᴏᴍ ᴄᴏᴍᴍᴀɴᴅs.\n\n❍ /gecg ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ ɢᴇᴄɢ ɪᴍɢ.\n❍ /avatar ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴀᴠᴀᴛᴀʀ ɪᴍɢ.\n❍ /foxgirl ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ғᴏxɢɪʀʟ sᴏᴜʀᴄᴇ ɪᴍᴀɢᴇs.\n❍ /waifus ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴡᴀɪғᴜ ɪᴍɢ.\n❍ /neko ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sғᴡ ɴᴇᴋᴏ sᴏᴜʀᴄᴇ ɪᴍᴀɢᴇs.\n❍ /gasm ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴏʀɢᴀsᴍ ɪᴍɢ.\n❍ /cuddle ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴄᴜᴅᴅʟᴇ ɪᴍɢ.\n❍ /shinobu ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ sʜɪɴᴏʙᴜ ɪᴍɢ.\n❍ /megumin ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ ᴍᴇɢᴜᴍɪɴ ɪᴍɢ.\n❍ /bully ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ ʙᴜʟʟʏ ɪᴍɢ.\n❍ /cry ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ ᴄʀʏ ɪᴍɢ.\n❍ /awoo ➛ sᴇɴᴅ ʀᴀɴᴅᴏᴍ ᴀᴡᴏᴏ ɪᴍɢ.
 
-❀ [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) ❀ 
+❀ [ᴋᴀʀᴜᴍɪ ᴜᴘᴅᴀᴛᴇs](https://t.me/honey_networks) ❀ 
 """, 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -554,7 +554,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             f"""
 ✿ ʜᴇʀᴇ ɪs ᴀʟʟ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴀᴛᴄʜᴇʀ ( ɢᴀʙʙᴀʀ ʜᴇʀᴇᴍ ) ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴀɴᴅs.\n\n❍ /guess ➛ ᴛᴏ ɢᴜᴇss ᴄʜᴀʀᴀᴄᴛᴇʀ.\n❍ /fav ➛ ᴀᴅᴅ ʏᴏᴜʀ ғᴀᴠʀᴀᴛᴇ.\n❍ /trade ➛ ᴛᴏ ᴛʀᴀᴅᴇ ᴄʜᴀʀᴀᴄᴛᴇʀs.\n❍ /gift ➛ ɢɪᴠᴇ ᴀɴʏ ᴄʜᴀʀᴀᴄᴛᴇʀ ғʀᴏᴍ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴜsᴇʀ.\n❍ /collection ➛ ᴛᴏ sᴇᴇ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ.\n❍ /topgroups ➛ sᴇᴇ ᴛᴏᴘ ɢʀᴏᴜᴘs, ᴘᴘʟ ɢᴜᴇssᴇs ᴍᴏsᴛ ɪɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘs.\n❍ /top ➛ ᴛᴏᴏ sᴇᴇ ᴛᴏᴘ ᴜsᴇʀs.\n❍ /ctop ➛ ʏᴏᴜʀ ᴄʜᴀᴛ ᴛᴏᴘ.\n❍ /changetime ➛ ᴄʜᴀɴɢᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴀᴘᴘᴇᴀʀ ᴛɪᴍᴇ .\n❍ /herem ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄʜᴀᴛᴄʜ.
 
- [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support)  
+ [ᴋᴀʀᴜᴍɪ ᴜᴘᴅᴀᴛᴇs](https://t.me/honey_networks)  
  """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -577,7 +577,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 ✿ Usᴇ /help ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴄʜᴇᴄᴋ ᴀʟʟ ᴏғ ᴛʜᴇᴍ  
  
 
-[ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support)  
+[ᴋᴀʀᴜᴍɪ ᴜᴘᴅᴀᴛᴇs](https://t.me/honey_networks)  
 """, 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -605,7 +605,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 ➩ /spam <count> <message>
 
 
-  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support)
+  [ᴋᴀʀᴜᴍɪ ᴜᴘᴅᴀᴛᴇs](https://t.me/honey_networks)
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -634,7 +634,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 ➩ /rraid stop: *Stop the reply raid in the current chat.*
 
 
-  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) 
+  [ᴋᴀʀᴜᴍɪ ᴜᴘᴅᴀᴛᴇs](https://t.me/honey_networks) 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -655,12 +655,12 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 ━━━━━━━━━━━━━━━━━━━━
   ɪᴛ,s ʙᴀsᴇᴅ ᴏɴ ᴄᴀʀs 
-ᴅʀɪғᴛᴇʀs ᴡʜᴏ ᴡɪʟʟ ᴄʜᴀᴛ ᴡɪᴛʜ ʏᴏᴜ ᴀɴʏᴛɪᴍᴇ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴏʀᴅᴇʀs !!!
+ᴋᴀʀᴜᴍɪ ᴡʜᴏ ᴡɪʟʟ ᴄʜᴀᴛ ᴡɪᴛʜ ʏᴏᴜ ᴀɴʏᴛɪᴍᴇ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴏʀᴅᴇʀs !!!
 
 ᴊᴜsʀ ᴛʏᴏᴇ ᴀ ᴍᴇssᴀɢᴇ ʀᴇᴘʟʏɪɴɢ ᴋʀ ᴛᴀɢɢɪɴɢ ᴅʀɪғᴛᴇʀs, ᴀɴᴅ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴀ sᴜᴘᴇʀғᴀsᴛ ʀᴇsᴘᴏɴsᴇ ғʀᴏᴍ ᴅʀɪғᴛᴇʀ.
 
 
-  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) 
+  [ᴋᴀʀᴜᴍɪ ᴜᴘᴅᴀᴛᴇs](https://t.me/honey_networks) 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -680,10 +680,10 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 **𝐍𝐎𝐓𝐄 ➩ 𝐓𝙾 𝐔𝚂𝙴 𝐓𝙷𝙴𝚂𝙴 𝐂𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝐘𝙾𝚄 𝐌𝚄𝚂𝚃 𝐁𝙴 𝐎𝚆𝙽𝙴𝚁 𝐎𝚁 𝐀𝙳𝙼𝙸𝙽 𝐎𝙵 𝐀 𝐏𝙾𝙿𝚄𝙻𝙰𝚁 𝐂𝙷𝙰𝚃 𝐎𝚁 𝐂𝙷𝙰𝙽𝙽𝙴𝙻,**
 
-**𝐈𝙵 𝐘𝙾𝚄 𝐀𝚁𝙴 𝐀𝙿𝙿𝙻𝙸𝙲𝙰𝙱𝙻𝙴, 𝐉𝙾𝙸𝙽 ➩ [𝐑𝙰𝙳𝙸𝚄𝚇 𝐒𝚄𝙿𝙿𝙾𝚁𝚃](https://t.me/drifters_support) 𝐀𝙽𝙳 𝐓𝙰𝙺𝙴 𝐒𝚄𝙳𝙾 𝐅𝚁𝙾𝙼 𝐓𝙷𝙴𝚁𝙴 !!**
+**𝐈𝙵 𝐘𝙾𝚄 𝐀𝚁𝙴 𝐀𝙿𝙿𝙻𝙸𝙲𝙰𝙱𝙻𝙴, 𝐉𝙾𝙸𝙽 ➩ [ᴋᴀʀᴜᴍɪ sᴜᴘᴘᴏʀᴛ](https://t.me/Karumi_support) 𝐀𝙽𝙳 𝐓𝙰𝙺𝙴 𝐒𝚄𝙳𝙾 𝐅𝚁𝙾𝙼 𝐓𝙷𝙴𝚁𝙴 !!**
 
 
-  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) 
+  [ᴋᴀʀᴜᴍɪ ᴜᴘᴅᴀᴛᴇs](https://t.me/honey_networks) 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -714,7 +714,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 ━━━━━━━━━━━━━━━━━━━━
 
-  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support) 
+  [ᴋᴀʀᴜᴍɪ ᴜᴘᴅᴀᴛᴇs](https://t.me/honey_networks) 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -732,14 +732,14 @@ def Music_about_callback(update: Update, context: CallbackContext):
             f"""
 
 
-  [ᴅʀɪғᴛᴇʀs ᴜᴘᴅᴀᴛᴇs](https://t.me/drifters_support)   """,
+  [ᴋᴀʀᴜᴍɪ ᴜᴘᴅᴀᴛᴇs](https://t.me/honey_networks)   """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(text="sᴘᴀᴍ-ᴍᴇɴᴜ", callback_data="Music_9"),
-                        InlineKeyboardButton(text="ᴅʀɪғᴛᴇʀ-ᴄʜᴀᴛ-ʙᴏᴛ", callback_data="Music_8"),
+                        InlineKeyboardButton(text="ᴋᴀʀᴜᴍɪ-ᴄʜᴀᴛ-ʙᴏᴛ", callback_data="Music_8"),
                     ],
                     [
                         InlineKeyboardButton(text="ᴄʜᴀᴛ ɢᴘᴛ", callback_data="Music_10"),
@@ -1053,7 +1053,7 @@ def main():
                 caption=f"""
  ☏︎ {BOT_NAME} ɪs ᴀʟɪᴠᴇ sᴏʟᴅɪᴇʀ
      ━━━━━━━━ 🝮✿🝮 ━━━━━━━━
-**✞︎ ᴍᴀᴅᴇ ʙʏ ➛ [ᴀɴᴅʜᴋᴀᴀʀ](https://t.me/Bang_Brave_Bang_Bravern)**
+**✞︎ ᴍᴀᴅᴇ ʙʏ ➛ [ʜᴏɴᴇʏ](https://t.me/OgHoneyy)**
 **✞︎ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➛** `{y()}`
 **✞︎ ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ ➛** `{telever}`
 **✞︎ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➛** `{tlhver}`
